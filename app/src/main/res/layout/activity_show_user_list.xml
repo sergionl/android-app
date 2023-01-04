@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.showUserList">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="286dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="413dp"
+                android:layout_height="22dp"
+                android:text="id" />
+
+            <TextView
+                android:id="@+id/clogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="clogin" />
+
+            <TextView
+                android:id="@+id/cnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cnombre" />
+
+            <TextView
+                android:id="@+id/bactivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bactivo" />
+
+            <TextView
+                android:id="@+id/dfecreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dfecreg" />
+
+            <TextView
+                android:id="@+id/dfecmod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dfecmod" />
+
+            <TextView
+                android:id="@+id/ccodigosap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ccodigosap" />
+
+            <TextView
+                android:id="@+id/idusureg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="idusureg" />
+
+            <TextView
+                android:id="@+id/idusumod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="idusumod" />
+
+            <TextView
+                android:id="@+id/idempleado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="idempleado" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
